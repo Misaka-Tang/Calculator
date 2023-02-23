@@ -11,6 +11,14 @@
 		8B050DF829A35C4A00BCC1E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050DF729A35C4A00BCC1E1 /* ContentView.swift */; };
 		8B050DFA29A35C4B00BCC1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B050DF929A35C4B00BCC1E1 /* Assets.xcassets */; };
 		8B050DFD29A35C4B00BCC1E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B050DFC29A35C4B00BCC1E1 /* Preview Assets.xcassets */; };
+		8B050E0729A35D6600BCC1E1 /* ViewOfCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B050E0629A35D6600BCC1E1 /* ViewOfCalc.swift */; };
+		8BDF51E429A4ECBE00E041CE /* KeyBoardNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51E329A4ECBE00E041CE /* KeyBoardNum.swift */; };
+		8BDF51E629A4EDCF00E041CE /* KeyBoardOpera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51E529A4EDCF00E041CE /* KeyBoardOpera.swift */; };
+		8BDF51E829A5A3AD00E041CE /* ListOfNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51E729A5A3AD00E041CE /* ListOfNums.swift */; };
+		8BDF51EA29A5A52100E041CE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51E929A5A52100E041CE /* Utilities.swift */; };
+		8BDF51EC29A5B07100E041CE /* BasicOpera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51EB29A5B07100E041CE /* BasicOpera.swift */; };
+		8BDF51EE29A5E2FD00E041CE /* EnumOfOpera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51ED29A5E2FD00E041CE /* EnumOfOpera.swift */; };
+		8BDF51F029A5E30700E041CE /* EnumOfNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDF51EF29A5E30700E041CE /* EnumOfNums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		8B050DF729A35C4A00BCC1E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B050DF929A35C4B00BCC1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B050DFC29A35C4B00BCC1E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B050E0629A35D6600BCC1E1 /* ViewOfCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOfCalc.swift; sourceTree = "<group>"; };
+		8BDF51E229A4DFEB00E041CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BDF51E329A4ECBE00E041CE /* KeyBoardNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardNum.swift; sourceTree = "<group>"; };
+		8BDF51E529A4EDCF00E041CE /* KeyBoardOpera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardOpera.swift; sourceTree = "<group>"; };
+		8BDF51E729A5A3AD00E041CE /* ListOfNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfNums.swift; sourceTree = "<group>"; };
+		8BDF51E929A5A52100E041CE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8BDF51EB29A5B07100E041CE /* BasicOpera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOpera.swift; sourceTree = "<group>"; };
+		8BDF51ED29A5E2FD00E041CE /* EnumOfOpera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumOfOpera.swift; sourceTree = "<group>"; };
+		8BDF51EF29A5E30700E041CE /* EnumOfNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumOfNums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,11 @@
 		8B050DF429A35C4A00BCC1E1 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8BDF51E229A4DFEB00E041CE /* Info.plist */,
+				8B050E0529A35CB500BCC1E1 /* Services */,
+				8B050E0429A35CAB00BCC1E1 /* POJO */,
+				8B050E0329A35C9500BCC1E1 /* Views */,
 				8B050DF529A35C4A00BCC1E1 /* CalculatorApp.swift */,
-				8B050DF729A35C4A00BCC1E1 /* ContentView.swift */,
 				8B050DF929A35C4B00BCC1E1 /* Assets.xcassets */,
 				8B050DFB29A35C4B00BCC1E1 /* Preview Content */,
 			);
@@ -65,6 +85,36 @@
 				8B050DFC29A35C4B00BCC1E1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B050E0329A35C9500BCC1E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B050DF729A35C4A00BCC1E1 /* ContentView.swift */,
+				8B050E0629A35D6600BCC1E1 /* ViewOfCalc.swift */,
+				8BDF51E329A4ECBE00E041CE /* KeyBoardNum.swift */,
+				8BDF51E529A4EDCF00E041CE /* KeyBoardOpera.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B050E0429A35CAB00BCC1E1 /* POJO */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF51E729A5A3AD00E041CE /* ListOfNums.swift */,
+				8BDF51ED29A5E2FD00E041CE /* EnumOfOpera.swift */,
+				8BDF51EF29A5E30700E041CE /* EnumOfNums.swift */,
+			);
+			path = POJO;
+			sourceTree = "<group>";
+		};
+		8B050E0529A35CB500BCC1E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF51E929A5A52100E041CE /* Utilities.swift */,
+				8BDF51EB29A5B07100E041CE /* BasicOpera.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BDF51F029A5E30700E041CE /* EnumOfNums.swift in Sources */,
 				8B050DF829A35C4A00BCC1E1 /* ContentView.swift in Sources */,
 				8B050DF629A35C4A00BCC1E1 /* CalculatorApp.swift in Sources */,
+				8BDF51EA29A5A52100E041CE /* Utilities.swift in Sources */,
+				8BDF51E429A4ECBE00E041CE /* KeyBoardNum.swift in Sources */,
+				8BDF51EC29A5B07100E041CE /* BasicOpera.swift in Sources */,
+				8BDF51E829A5A3AD00E041CE /* ListOfNums.swift in Sources */,
+				8B050E0729A35D6600BCC1E1 /* ViewOfCalc.swift in Sources */,
+				8BDF51E629A4EDCF00E041CE /* KeyBoardOpera.swift in Sources */,
+				8BDF51EE29A5E2FD00E041CE /* EnumOfOpera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +327,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,9 +355,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
